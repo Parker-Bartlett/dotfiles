@@ -28,7 +28,7 @@ Please move or remove them before you switch branches.
 Aborting
 ```
 
-4. Since we want to ignore that majority of what is on our system can also set the `showUntrackedFiles` to `no`, this will help alleviate clutter when running commands like `dotfiles status` in your home directory.
+4. Since we want to ignore the majority of what is on our system we can set the `showUntrackedFiles` to `no`, this will help alleviate clutter when running commands like `dotfiles status` in your home directory.
 ```
 dotfiles config --local status.showUntrackedFiles no
 ```
